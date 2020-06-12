@@ -1,0 +1,87 @@
+﻿@charset "utf-8";
+/* CSS Document */
+
+body
+{
+	background-color:#B2B2B2;
+}
+
+h1
+{
+	margin-top:5px;
+	margin-left:50px;
+	float:left;
+}
+
+h1 a
+{
+	text-decoration:none;
+	color:#FFCC36;
+}
+
+.containerMenu {
+	margin-right:50px;
+	float:right;
+	width:50%;
+    overflow: hidden;
+    background-color: #333;
+    font-family: Arial;
+}
+
+.containerMenu a {
+    float: right;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+	margin-right:30px;
+    padding: 14px 15px 16px 15px;
+    text-decoration: none;
+}
+
+
+.dropdown {
+    float: right;
+    overflow: hidden;
+}
+
+.dropdown .dropbtn {
+    cursor: pointer;
+	margin-top:3px;
+	margin-right:30px;
+    font-size: 16px;   
+    border: none;
+    outline: none;
+    color: #FFFFFF;
+    padding: 14px 16px;
+    background-color: inherit;
+}
+
+.containerMenu a:hover, .dropdown:hover .dropbtn {
+    background-color: red;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #333;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    float: none;
+    color:#FFFFFF;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.show {
+    display: block;
+}

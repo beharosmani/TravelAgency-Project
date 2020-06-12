@@ -1,0 +1,77 @@
+﻿@charset "utf-8";
+/* CSS Document */
+
+#choice
+{
+	background-color:#E8451D;
+
+}
+
+label
+{
+	font-family:Arial, Times New Roman, sans-serif;
+	font-size:18px;
+	color: #000000;
+	margin: 0 20px 0 20px;
+	paddin: 0 10px 0 10px;
+}
+
+#banner
+{
+	
+	/*background:url(../img/banner1.jpg) no-repeat 0 ;*/
+	min-height:350px;
+	color:#FFFFFF;
+	width: 100%;
+
+}
+
+.icon .radiobox 
+{
+	float:left;
+	padding:15px;
+	margin:5px;
+	text-align:center;
+	width:20%;
+	min-width:100px;
+
+}
+
+.icon .radiobox img
+{
+	width: 150px;
+	height: 150px;
+}
+
+
+
+#kerkimi
+{
+	width: 80%;
+	margin: auto;
+	overflow:hidden;
+}
+
+#kerkimi div
+{
+	float:left;
+	margin:20px;
+	padding:15px;
+}
+
+#kerkimi div input
+{
+	margin-left:30px;
+}
+
+#kerkimi div input[type='submit']
+{
+	width:100px	
+}
+
+#kerkimi div input[type='text']
+{
+	width:200px	
+}
+
+
